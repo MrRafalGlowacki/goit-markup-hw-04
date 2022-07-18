@@ -47,6 +47,7 @@ ul {
 }
 .link-nav a:hover {
   color: #2196f3;
+  cursor: pointer;
 }
 .link-nav a:focus {
   color: #2196f3;
@@ -66,6 +67,7 @@ ul {
 .link-header:hover {
   color: #2196f3;
   fill: #2196f3;
+  cursor: pointer;
 }
 .link-header:focus {
   color: #2196f3;
@@ -87,6 +89,7 @@ ul {
   max-width: 1600px;
   text-align: center;
   height: 600px;
+  margin: 0 auto;
 }
 .order-button {
   color: #ffffff;
@@ -161,7 +164,9 @@ ul {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
+.porfolio-filter:hover {
+  cursor: pointer;
+}
 .portfolio-project {
   font-weight: 700;
   font-size: 18px;
@@ -251,6 +256,7 @@ ul {
   display: flex;
   margin-top: 94px;
   padding-left: 0;
+  justify-content: center;
 }
 .first-list-padding {
   padding-right: 30px;
@@ -268,6 +274,7 @@ ul {
 .picture-list {
   display: flex;
   padding: 0;
+  justify-content: center
 }
 .picture-list li:nth-child(2) {
   padding: 0 30px;
@@ -322,6 +329,7 @@ ul {
   margin: 0;
   gap: 30px;
   flex-basis: calc((100%-60px) / 3);
+  justify-content: center;
 }
 .figcaption-border {
   border-bottom: #eeeeee solid 1px;
@@ -335,6 +343,7 @@ ul {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 .cards img {
   display: block;
