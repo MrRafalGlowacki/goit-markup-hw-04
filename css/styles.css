@@ -287,8 +287,7 @@ ul {
 }
 .team-container ul {
   display: flex;
-  /* padding: 0 30px; */
-  gap: 30px;
+  padding: 0 30px;
 }
 .team-members {
   width: 270px;
