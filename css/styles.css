@@ -257,10 +257,11 @@ ul {
   margin-top: 94px;
   padding-left: 0;
   justify-content: center;
+  gap: 30px;
 }
-.first-list-padding {
+/* .first-list-padding {
   padding-right: 30px;
-}
+} */
 .first-list div {
   display: flex;
   width: 270px;
@@ -274,19 +275,20 @@ ul {
 .picture-list {
   display: flex;
   padding: 0;
-  justify-content: center
+  justify-content: center;
+  gap: 30px;
 }
-.picture-list li:nth-child(2) {
+/* .picture-list li:nth-child(2) {
   padding: 0 30px;
-}
+} */
 
 .team-container {
-  height: 648px;
   background-color: #f5f4fa;
 }
 .team-container ul {
   display: flex;
-  padding: 0 30px;
+  /* padding: 0 30px; */
+  gap: 30px;
 }
 .team-members {
   width: 270px;
